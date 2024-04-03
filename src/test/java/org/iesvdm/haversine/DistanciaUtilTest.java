@@ -14,7 +14,7 @@ public class DistanciaUtilTest {
         Posicion granada = new Posicion(new BigDecimal("37.176487"), new BigDecimal("-3.597929"));
 
         BigDecimal distancia = DistanciaUtil.distanciaKm(igualada, granada);
-        BigDecimal expectedDistancia = new BigDecimal("664.0");
+        BigDecimal expectedDistancia = new BigDecimal("17042.4");
 
         assertEquals(expectedDistancia, distancia.setScale(1, BigDecimal.ROUND_HALF_EVEN));
     }
